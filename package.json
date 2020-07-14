@@ -1,0 +1,20 @@
+{
+  "name": "testktteam",
+  "version": "1.0.0",
+  "description": "test_assignment",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "sass": "^1.26.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --output-style compressed -w style.scss index.css",
+    "server": "live-server --wait=3000"
+  },
+  "author": "Sergey Lavrentyev",
+  "license": "ISC"
+}
